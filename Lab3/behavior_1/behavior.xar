@@ -15,7 +15,7 @@
             <BehaviorLayer name="behavior_layer1">
                 <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram>
-                        <Box name="Say" id="1" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="390" y="250">
+                        <Box name="Say" id="1" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="665" y="243">
                             <bitmap>media/images/box/interaction/say.png</bitmap>
                             <script language="4">
                                 <content>
@@ -216,7 +216,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="Speech" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Move To" id="4" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="2236" y="146">
+                        <Box name="Move To" id="4" localization="8" tooltip="Make the robot move to a configured point relative to its current location." x="2511" y="139">
                             <bitmap>media/images/box/movement/walk_forward.png</bitmap>
                             <script language="4">
                                 <content>
@@ -275,7 +275,7 @@ class MyClass(GeneratedClass):
                             <Parameter name="Arms movement enabled" inherits_from_parent="0" content_type="0" value="1" default_value="1" tooltip="Enables natural motion of the arms." id="9" />
                             <Resource name="Legs" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Hello" id="7" localization="8" tooltip="Simple hello animation.&#x0A;&#x0A;!!Warning!! There is no speech in this box. It is a just an animation box with some&#x0A;leds animation." x="390" y="123">
+                        <Box name="Hello" id="7" localization="8" tooltip="Simple hello animation.&#x0A;&#x0A;!!Warning!! There is no speech in this box. It is a just an animation box with some&#x0A;leds animation." x="665" y="116">
                             <bitmap>media/images/box/movement/move.png</bitmap>
                             <script language="4">
                                 <content>
@@ -478,7 +478,7 @@ class MyClass(GeneratedClass):
                             <Resource name="Left eye leds" type="Lock" timeout="0" />
                             <Resource name="Right eye leds" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Wipe Forehead" id="8" localization="8" tooltip="This box makes the robot wipe his forehead." x="1058" y="186">
+                        <Box name="Wipe Forehead" id="8" localization="8" tooltip="This box makes the robot wipe his forehead." x="1333" y="179">
                             <bitmap>media/images/box/movement/move.png</bitmap>
                             <script language="4">
                                 <content>
@@ -624,7 +624,7 @@ class MyClass(GeneratedClass):
                             <Resource name="Head" type="Lock" timeout="0" />
                             <Resource name="Arms" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Stand Up" id="9" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="1893" y="156">
+                        <Box name="Stand Up" id="9" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="2168" y="149">
                             <bitmap>media/images/box/movement/stand.png</bitmap>
                             <script language="4">
                                 <content>
@@ -703,7 +703,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="All motors" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Wait For Signals (1)" id="12" localization="8" tooltip="Wait for both inputs to be stimulated before stimulating its output." x="601" y="177">
+                        <Box name="Wait For Signals (1)" id="12" localization="8" tooltip="Wait for both inputs to be stimulated before stimulating its output." x="876" y="170">
                             <bitmap>media/images/box/wait.png</bitmap>
                             <script language="4">
                                 <content>
@@ -739,7 +739,7 @@ class MyClass(GeneratedClass):
                             <Input name="signal2" type="1" type_size="1" nature="1" inner="0" tooltip="Second signal to wait." id="3" />
                             <Output name="signalsReceived" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when both inputs have been stimulated." id="4" />
                         </Box>
-                        <Box name="Say (1)" id="5" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="1072" y="41">
+                        <Box name="Say (1)" id="5" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="1347" y="34">
                             <bitmap>media/images/box/interaction/say.png</bitmap>
                             <script language="4">
                                 <content>
@@ -940,7 +940,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="Speech" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Wait For Signals" id="6" localization="8" tooltip="Wait for both inputs to be stimulated before stimulating its output." x="1314" y="127">
+                        <Box name="Wait For Signals" id="6" localization="8" tooltip="Wait for both inputs to be stimulated before stimulating its output." x="1589" y="120">
                             <bitmap>media/images/box/wait.png</bitmap>
                             <script language="4">
                                 <content>
@@ -976,7 +976,7 @@ class MyClass(GeneratedClass):
                             <Input name="signal2" type="1" type_size="1" nature="1" inner="0" tooltip="Second signal to wait." id="3" />
                             <Output name="signalsReceived" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when both inputs have been stimulated." id="4" />
                         </Box>
-                        <Box name="Goto Posture" id="10" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="1490" y="126">
+                        <Box name="Goto Posture" id="10" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="1765" y="119">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1029,7 +1029,7 @@ class MyClass(GeneratedClass):
                             <Resource name="All motors" type="Lock" timeout="0" />
                             <Resource name="Stiffness" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Wait" id="13" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="1678" y="150">
+                        <Box name="Wait" id="13" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="1953" y="143">
                             <bitmap>media/images/box/wait.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1066,10 +1066,10 @@ class MyClass(GeneratedClass):
                             <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" />
                             <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" />
                             <Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" />
-                            <Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="6" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" />
+                            <Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="5" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" />
                             <Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" />
                         </Box>
-                        <Box name="Goto Posture (1)" id="3" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="2445" y="112">
+                        <Box name="Goto Posture (1)" id="3" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="2720" y="105">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1122,7 +1122,7 @@ class MyClass(GeneratedClass):
                             <Resource name="All motors" type="Lock" timeout="0" />
                             <Resource name="Stiffness" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Stand Up (1)" id="11" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="174" y="163">
+                        <Box name="Stand Up (1)" id="11" localization="8" tooltip="the robot tries to stand up from any position for a number of tries.&#x0A;&#x0A;Note: The number of tries can be set in parameters." x="449" y="156">
                             <bitmap>media/images/box/movement/stand.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1201,7 +1201,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="All motors" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Tactile Head" id="15" localization="8" tooltip="Detect touch on head tactile sensor." x="2052" y="140">
+                        <Box name="Tactile Head" id="15" localization="8" tooltip="Detect touch on head tactile sensor." x="2327" y="133">
                             <bitmap>media/images/box/sensors/tactileHead.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1344,7 +1344,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="Head-sequence" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Rest" id="2" localization="0" tooltip="Call a Rest process.&#x0A;Apply crouch posture if the robot is Stand then unStiff all joints" x="2608" y="110">
+                        <Box name="Rest" id="2" localization="0" tooltip="Call a Rest process.&#x0A;Apply crouch posture if the robot is Stand then unStiff all joints" x="2883" y="103">
                             <bitmap>media/images/box/movement/stiffness.png</bitmap>
                             <script language="4">
                                 <content>
@@ -1377,7 +1377,7 @@ class MyClass(GeneratedClass):
                             <Resource name="All motors" type="Lock" timeout="0" />
                             <Resource name="Stiffness" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Tai Chi Chuan" id="14" localization="8" tooltip="Tai Chi Chuan dance." x="808" y="185">
+                        <Box name="Tai Chi Chuan" id="14" localization="8" tooltip="Tai Chi Chuan dance." x="1083" y="178">
                             <bitmap>media/images/box/movement/dance.png</bitmap>
                             <script language="4">
                                 <content>
@@ -2223,6 +2223,46 @@ class MyClass(GeneratedClass):
                             <Resource name="Right eye leds" type="Lock" timeout="0" />
                             <Resource name="Audio player" type="Lock" timeout="0" />
                         </Box>
+                        <Box name="Wait (1)" id="16" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="208" y="141">
+                            <bitmap>media/images/box/wait.png</bitmap>
+                            <script language="4">
+                                <content>
+                                    <![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]>
+</content>
+                            </script>
+                            <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
+                            <Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" />
+                            <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" />
+                            <Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" />
+                            <Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="10" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" />
+                            <Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" />
+                        </Box>
                         <Link inputowner="12" indexofinput="2" outputowner="7" indexofoutput="4" />
                         <Link inputowner="12" indexofinput="3" outputowner="1" indexofoutput="4" />
                         <Link inputowner="6" indexofinput="2" outputowner="5" indexofoutput="4" />
@@ -2231,7 +2271,6 @@ class MyClass(GeneratedClass):
                         <Link inputowner="13" indexofinput="2" outputowner="10" indexofoutput="4" />
                         <Link inputowner="9" indexofinput="2" outputowner="13" indexofoutput="4" />
                         <Link inputowner="3" indexofinput="2" outputowner="4" indexofoutput="4" />
-                        <Link inputowner="11" indexofinput="2" outputowner="0" indexofoutput="2" />
                         <Link inputowner="7" indexofinput="2" outputowner="11" indexofoutput="4" />
                         <Link inputowner="1" indexofinput="2" outputowner="11" indexofoutput="4" />
                         <Link inputowner="15" indexofinput="2" outputowner="9" indexofoutput="4" />
@@ -2242,6 +2281,8 @@ class MyClass(GeneratedClass):
                         <Link inputowner="14" indexofinput="2" outputowner="12" indexofoutput="4" />
                         <Link inputowner="5" indexofinput="2" outputowner="14" indexofoutput="4" />
                         <Link inputowner="8" indexofinput="2" outputowner="14" indexofoutput="4" />
+                        <Link inputowner="16" indexofinput="2" outputowner="0" indexofoutput="2" />
+                        <Link inputowner="11" indexofinput="2" outputowner="16" indexofoutput="4" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>
