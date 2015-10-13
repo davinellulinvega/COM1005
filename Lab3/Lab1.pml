@@ -9,10 +9,10 @@
         <File name="choice_sentences" src="behavior_1/Aldebaran/choice_sentences.xml" />
         <File name="choregrapheGui" src="Docs/choregrapheGui.png" />
         <File name="choregrapheGuiNoDial" src="Docs/choregrapheGuiNoDial.png" />
-        <File name=".~lock.exercises" src="Docs/.~lock.exercises.odt#" />
         <File name="exercises" src="Docs/exercises.odt" />
         <File name="" src="Docs/.gitignore" />
         <File name="solution" src="Docs/solution.png" />
+        <File name="swiftswords_ext" src="behavior_1/swiftswords_ext.mp3" />
     </Resources>
     <Topics />
     <IgnoredPaths />
