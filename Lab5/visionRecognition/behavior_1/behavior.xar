@@ -15,7 +15,7 @@
             <BehaviorLayer name="behavior_layer1">
                 <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram scale="118.921">
-                        <Box name="Choice" id="2" localization="8" tooltip="The Choice box is based on the speech recognition engine: it expects a defined number of predicted answers . The box&#x0A;includes interactive help during the behavior thanks to the head tactile sensor. The recognized answer is sent to the answer output.&#x0A;&#x0A;Note that you must open this box to enter the question text and the&#x0A;available answers." x="358" y="210">
+                        <Box name="Choice" id="2" localization="8" tooltip="The Choice box is based on the speech recognition engine: it expects a defined number of predicted answers . The box&#x0A;includes interactive help during the behavior thanks to the head tactile sensor. The recognized answer is sent to the answer output.&#x0A;&#x0A;Note that you must open this box to enter the question text and the&#x0A;available answers." x="278" y="210">
                             <bitmap>media/images/box/interaction/choice.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7275,7 +7275,7 @@ class MyClass(GeneratedClass):
                             <Resource name="Speech" type="Lock" timeout="0" />
                             <Resource name="Speech recognition" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Hello" id="3" localization="8" tooltip="Simple hello animation.&#x0A;&#x0A;!!Warning!! There is no speech in this box. It is a just an animation box with some&#x0A;leds animation." x="1605" y="442">
+                        <Box name="Hello" id="3" localization="8" tooltip="Simple hello animation.&#x0A;&#x0A;!!Warning!! There is no speech in this box. It is a just an animation box with some&#x0A;leds animation." x="1525" y="442">
                             <bitmap>media/images/box/movement/move.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7478,7 +7478,7 @@ class MyClass(GeneratedClass):
                             <Resource name="Left eye leds" type="Lock" timeout="0" />
                             <Resource name="Right eye leds" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Say" id="4" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="1610" y="247">
+                        <Box name="Say" id="4" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="1530" y="247">
                             <bitmap>media/images/box/interaction/say.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7679,7 +7679,7 @@ class MyClass(GeneratedClass):
                             </Timeline>
                             <Resource name="Speech" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Face Reco." id="5" localization="8" tooltip="Detect people&apos;s face and recognize those which are known by the robot.&#x0A;&#x0A;Note: the robot needs to learn a face with the Learn Face box before he can recognize it." x="1077" y="282">
+                        <Box name="Face Reco." id="5" localization="8" tooltip="Detect people&apos;s face and recognize those which are known by the robot.&#x0A;&#x0A;Note: the robot needs to learn a face with the Learn Face box before he can recognize it." x="997" y="282">
                             <bitmap>media/images/box/interaction/reco_face.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7762,7 +7762,7 @@ class MyClass(GeneratedClass):
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="If" id="6" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="1363" y="264">
+                        <Box name="If" id="6" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="1283" y="264">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7823,7 +7823,7 @@ class MyClass(GeneratedClass):
                             </Parameter>
                             <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="Rob" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                         </Box>
-                        <Box name="If (1)" id="7" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="1360" y="437">
+                        <Box name="If (1)" id="7" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="1280" y="437">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7884,7 +7884,7 @@ class MyClass(GeneratedClass):
                             </Parameter>
                             <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="Luc" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                         </Box>
-                        <Box name="Rest" id="8" localization="0" tooltip="Call a Rest process.&#x0A;Apply crouch posture if the robot is Stand then unStiff all joints" x="2376" y="150">
+                        <Box name="Rest" id="8" localization="0" tooltip="Call a Rest process.&#x0A;Apply crouch posture if the robot is Stand then unStiff all joints" x="2296" y="150">
                             <bitmap>media/images/box/movement/stiffness.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7917,7 +7917,7 @@ class MyClass(GeneratedClass):
                             <Resource name="All motors" type="Lock" timeout="0" />
                             <Resource name="Stiffness" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="If (2)" id="10" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="1381" y="634">
+                        <Box name="If (2)" id="10" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="1301" y="634">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -7978,7 +7978,7 @@ class MyClass(GeneratedClass):
                             </Parameter>
                             <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="Saeid" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                         </Box>
-                        <Box name="Wipe Forehead" id="9" localization="8" tooltip="This box makes the robot wipe his forehead." x="1630" y="630">
+                        <Box name="Wipe Forehead" id="9" localization="8" tooltip="This box makes the robot wipe his forehead." x="1550" y="630">
                             <bitmap>media/images/box/movement/move.png</bitmap>
                             <script language="4">
                                 <content>
@@ -8124,7 +8124,7 @@ class MyClass(GeneratedClass):
                             <Resource name="Head" type="Lock" timeout="0" />
                             <Resource name="Arms" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="Learn Face" id="1" localization="8" tooltip="Teach the robot a new face to recognize. the robot&apos;s eyes will become green in case of&#x0A;success and red in case of failure.&#x0A;&#x0A;V1.1.0&#x0A;" x="684" y="468">
+                        <Box name="Learn Face" id="1" localization="8" tooltip="Teach the robot a new face to recognize. the robot&apos;s eyes will become green in case of&#x0A;success and red in case of failure.&#x0A;&#x0A;V1.1.0&#x0A;" x="298" y="529">
                             <bitmap>media/images/box/interaction/learn_face.png</bitmap>
                             <script language="4">
                                 <content>
@@ -8568,7 +8568,7 @@ class MyClass(GeneratedClass):
                                 </BehaviorLayer>
                             </Timeline>
                         </Box>
-                        <Box name="Choice (1)" id="12" localization="8" tooltip="The Choice box is based on the speech recognition engine: it expects a defined number of predicted answers . The box&#x0A;includes interactive help during the behavior thanks to the head tactile sensor. The recognized answer is sent to the answer output.&#x0A;&#x0A;Note that you must open this box to enter the question text and the&#x0A;available answers." x="1886" y="418">
+                        <Box name="Choice (1)" id="12" localization="8" tooltip="The Choice box is based on the speech recognition engine: it expects a defined number of predicted answers . The box&#x0A;includes interactive help during the behavior thanks to the head tactile sensor. The recognized answer is sent to the answer output.&#x0A;&#x0A;Note that you must open this box to enter the question text and the&#x0A;available answers." x="1806" y="418">
                             <bitmap>media/images/box/interaction/choice.png</bitmap>
                             <script language="4">
                                 <content>
@@ -15684,7 +15684,7 @@ class MyClass(GeneratedClass):
 		self.tts = ALProxy("ALTextToSpeech")
 		self.sentences = {
 			"Chinese" : " 你喜欢吃巧克力吗？ ",
-			"English" : " Do you want to try another face? ",
+			"English" : " Do you want to try with someone else? ",
 			"French" : " Aimes-tu le chocolat ? ",
 			"German" : " Mögen Sie Schokolade? ",
 			"Italian" : " Ti piace il cioccolato? ",
@@ -15714,7 +15714,7 @@ class MyClass(GeneratedClass):
                                                         <![CDATA[你喜欢吃巧克力吗？]]>
 </chinese>
                                                     <english>
-                                                        <![CDATA[Do you want to try another face?]]>
+                                                        <![CDATA[Do you want to try with someone else?]]>
 </english>
                                                     <french>
                                                         <![CDATA[Aimes-tu le chocolat ?]]>
@@ -15786,7 +15786,7 @@ class MyClass(GeneratedClass):
                             <Resource name="Speech" type="Lock" timeout="0" />
                             <Resource name="Speech recognition" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="If (3)" id="13" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="2076" y="413">
+                        <Box name="If (3)" id="13" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="1996" y="413">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -15847,7 +15847,7 @@ class MyClass(GeneratedClass):
                             </Parameter>
                             <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="yes" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                         </Box>
-                        <Box name="Unlearn All Faces" id="14" localization="8" tooltip="Remove all faces from the face database.&#x0A;&#x0A;V1.1.0&#x0A;" x="2221" y="150">
+                        <Box name="Unlearn All Faces" id="14" localization="8" tooltip="Remove all faces from the face database.&#x0A;&#x0A;V1.1.0&#x0A;" x="2153" y="208">
                             <bitmap>media/images/box/interaction/unlearn_all_faces.png</bitmap>
                             <script language="4">
                                 <content>
@@ -15884,7 +15884,7 @@ class MyClass(GeneratedClass):
                             <Output name="onSuccess" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the clearing succeeded." id="3" />
                             <Output name="onFailure" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the clearing failed." id="4" />
                         </Box>
-                        <Box name="Choice (2)" id="11" localization="8" tooltip="The Choice box is based on the speech recognition engine: it expects a defined number of predicted answers . The box&#x0A;includes interactive help during the behavior thanks to the head tactile sensor. The recognized answer is sent to the answer output.&#x0A;&#x0A;Note that you must open this box to enter the question text and the&#x0A;available answers." x="830" y="513">
+                        <Box name="Choice (2)" id="11" localization="8" tooltip="The Choice box is based on the speech recognition engine: it expects a defined number of predicted answers . The box&#x0A;includes interactive help during the behavior thanks to the head tactile sensor. The recognized answer is sent to the answer output.&#x0A;&#x0A;Note that you must open this box to enter the question text and the&#x0A;available answers." x="496" y="544">
                             <bitmap>media/images/box/interaction/choice.png</bitmap>
                             <script language="4">
                                 <content>
@@ -23000,7 +23000,7 @@ class MyClass(GeneratedClass):
 		self.tts = ALProxy("ALTextToSpeech")
 		self.sentences = {
 			"Chinese" : " 你喜欢吃巧克力吗？ ",
-			"English" : " Do you want to learn another face? ",
+			"English" : " Should I learn another face? ",
 			"French" : " Aimes-tu le chocolat ? ",
 			"German" : " Mögen Sie Schokolade? ",
 			"Italian" : " Ti piace il cioccolato? ",
@@ -23030,7 +23030,7 @@ class MyClass(GeneratedClass):
                                                         <![CDATA[你喜欢吃巧克力吗？]]>
 </chinese>
                                                     <english>
-                                                        <![CDATA[Do you want to learn another face?]]>
+                                                        <![CDATA[Should I learn another face?]]>
 </english>
                                                     <french>
                                                         <![CDATA[Aimes-tu le chocolat ?]]>
@@ -23102,7 +23102,7 @@ class MyClass(GeneratedClass):
                             <Resource name="Speech" type="Lock" timeout="0" />
                             <Resource name="Speech recognition" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="If (4)" id="15" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="981" y="619">
+                        <Box name="If (4)" id="15" localization="8" tooltip="Test a condition and stimulate the then or else outputs depending on the boolean&#x0A;value of the condition.&#x0A;The condition can be set in parameters." x="666" y="558">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -23163,7 +23163,7 @@ class MyClass(GeneratedClass):
                             </Parameter>
                             <Parameter name="Value to compare" inherits_from_parent="0" content_type="3" value="yes" default_value="0" custom_choice="0" tooltip="This is the value which is compared to the input value." id="6" />
                         </Box>
-                        <Box name="Counter" id="16" localization="-1" tooltip="Represent a counter.&#x0A;&#x0A;Each time the onStart input is stimulated, the counter value is sent on the&#x0A;currentValue output and incremented (or decremented) by Step value, from&#x0A;its Initial value to its Final value set in the parameters. Once the counter value is&#x0A;higher than its Final value, the onReinitialized output is stimulated and&#x0A;the counter is reinitialized to the Initial value.&#x0A;&#x0A;Note: You can also reinitialize the counter by stimulating the onInit&#x0A;input." x="525" y="817">
+                        <Box name="Counter" id="16" localization="-1" tooltip="Represent a counter.&#x0A;&#x0A;Each time the onStart input is stimulated, the counter value is sent on the&#x0A;currentValue output and incremented (or decremented) by Step value, from&#x0A;its Initial value to its Final value set in the parameters. Once the counter value is&#x0A;higher than its Final value, the onReinitialized output is stimulated and&#x0A;the counter is reinitialized to the Initial value.&#x0A;&#x0A;Note: You can also reinitialize the counter by stimulating the onInit&#x0A;input." x="498" y="45">
                             <bitmap>media/images/box/loop.png</bitmap>
                             <script language="4">
                                 <content>
@@ -23211,7 +23211,7 @@ class MyClass(GeneratedClass):
                             <Parameter name="Step value" inherits_from_parent="0" content_type="1" value="1" default_value="1" min="1" max="500" tooltip="The counter value will be incremented or decremented with this value." id="7" />
                             <Parameter name="Final value" inherits_from_parent="0" content_type="1" value="5" default_value="5" min="0" max="500" tooltip="It is the maximum (if increasing) or the minimum (if decreasing) value of the&#x0A;counter (thus for the last iteration).&#x0A;&#x0A;After this value, if the onStart input is called, the onReinitialized output will be&#x0A;stimulated and the counter will be reinitialized to its Initial value." id="8" />
                         </Box>
-                        <Box name="Say (1)" id="17" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="852" y="864">
+                        <Box name="Say (1)" id="17" localization="8" tooltip="Say some text. Note that you must open the box to enter the text." x="778" y="50">
                             <bitmap>media/images/box/interaction/say.png</bitmap>
                             <script language="4">
                                 <content>
@@ -23434,6 +23434,9 @@ class MyClass(GeneratedClass):
                         <Link inputowner="11" indexofinput="2" outputowner="1" indexofoutput="3" />
                         <Link inputowner="16" indexofinput="2" outputowner="15" indexofoutput="3" />
                         <Link inputowner="5" indexofinput="2" outputowner="15" indexofoutput="4" />
+                        <Link inputowner="17" indexofinput="2" outputowner="16" indexofoutput="5" />
+                        <Link inputowner="5" indexofinput="2" outputowner="17" indexofoutput="4" />
+                        <Link inputowner="2" indexofinput="2" outputowner="16" indexofoutput="4" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>
