@@ -11,8 +11,8 @@ import hello
 import taichi
 
 # Define the ip address and port to connect to Nao
-nao_ip = "127.0.0.1"
-nao_port =   # The default port for connecting to the real robot is 9559
+nao_ip = "127.0.0.1"  # 127.0.0.1 to access the virtual robot
+nao_port = 33092  # The default port for connecting to the real robot is 9559
 
 # Register the text to speech, posture and motion modules that will be used in this script
 motion = ALProxy("ALMotion", nao_ip, nao_port)
