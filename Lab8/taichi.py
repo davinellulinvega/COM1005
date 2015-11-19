@@ -105,3 +105,12 @@ keys.append([-0.174533, -0.174533, -0.349066, -0.174533, -0.174515, -0.0698132, 
 names.append("RWristYaw")
 times.append([3, 50])
 keys.append([1.53589, 0.164096])
+
+
+def dance(motion):
+    """Use the motion module to run the angular interpolations and execute the animation
+        :param motion: the ALMotion module
+    """
+
+    # Execute the dance
+    motion.angleInterpolation(names, keys, times, True)

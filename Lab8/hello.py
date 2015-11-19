@@ -57,3 +57,16 @@ keys.append([-0.242414, -0.954191, -0.460242, -0.960325, -0.328317, -0.250085])
 names.append("RWristYaw")
 times.append([1.4, 3.32, 4.44])
 keys.append([-0.312978, -0.303775, 0.182504])
+
+
+def run_animation(motion):
+    """Use the motion module to run the angular interpolations and execute the animation
+        :param motion: the ALMotion module
+        :return the id of the request
+    """
+
+    # Request the execution of the animation
+    motion_id = motion.post.angleInterpolation(names, keys, times, True)
+
+    # Return the id of the motion request
+    return motion_id
