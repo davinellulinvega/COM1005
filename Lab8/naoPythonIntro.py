@@ -26,7 +26,7 @@ sleep(5)
 motion.wakeUp()
 
 # Ask the robot to go in stand up posture. The second parameter indicates the speed (btw 0 and 1) of execution
-posture.goToPosture("StandInit", 0.5)
+posture.goToPosture("StandInit", 0.8)
 
 # First difficulty say hello while moving the arm
 motion_id = motion.post.angleInterpolation(hello.names, hello.keys, hello.times, True)
@@ -46,19 +46,19 @@ tts.say("This was tyring. Let's rest a little bit")
 motion.wait(motion_id, 0)
 
 # Ask the robot to lay down
-posture.goToPosture("LyingBack", 0.3)
+posture.goToPosture("LyingBack", 0.5)
 
 # Let the robot rest for some time
 sleep(3)
 
 # The robot should stand up before anything else is executed
-posture.goToPosture("Stand", 0.3)
+posture.goToPosture("Stand", 0.5)
 
 # The robot moves forward for 50cm
 motion.moveTo(0.5, 0, 0)
 
 # The robot bids you farewell
-tts.say("Farewell my good old friend")
+tts.say("Farewell my good sir")
 
 # Put the robot in rest position
 motion.rest()
