@@ -29,17 +29,17 @@ motion.wakeUp()
 posture.goToPosture("StandInit", 0.8)
 
 # First difficulty say hello while moving the arm
-motion_id = motion.post.angleInterpolation(hello.names, hello.keys, hello.times, True)
+motion_id = hello.run_animation(motion)
 tts.say("Hello there")
 
 # Wait for the hello animation to stop
 motion.wait(motion_id, 0)  # The second argument is the timeout: 0 for wait indefinitely
 
 # Ask the robot to dance for us
-motion.angleInterpolation(taichi.names, taichi.keys, taichi.times, True)
+taichi.dance(motion)
 
 # The robot might be tired by now
-motion_id = motion.post.angleInterpolation(wipe.names, wipe.keys, wipe.times, True)
+motion_id = wipe.run_animation(motion)
 tts.say("This was tyring. Let's rest a little bit")
 
 # Wait for the wipe forehead animation to finish
