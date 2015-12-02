@@ -4,7 +4,7 @@
 import sys
 import os
 # Reconfigure the search path for all other modules
-sys.path.append(os.getcwd() + "/pynaoqi")
+#sys.path.append(os.getcwd() + "/pynaoqi")
 
 # Import the AlProxy module from naoqi to connect and play with the robot
 from naoqi import ALProxy
@@ -16,7 +16,7 @@ import taichi
 
 # Define the ip address and port to connect to Nao
 nao_ip = "127.0.0.1"  # 127.0.0.1 to access the virtual robot
-nao_port = 43256  # The default port for connecting to the real robot is 9559
+nao_port = 38826  # The default port for connecting to the real robot is 9559
 
 # Register the text to speech, posture and motion modules that will be used in this script
 motion = ALProxy("ALMotion", nao_ip, nao_port)
