@@ -291,7 +291,6 @@ class MyClass(GeneratedClass):
 
     def onInput_onStart(self):
         from time import sleep
-        #self.onStopped() #activate the output of the box
 
         # Register the text to speech, posture and motion modules that will be used in this script
         motion = ALProxy("ALMotion")
@@ -347,7 +346,7 @@ class MyClass(GeneratedClass):
 
     def onInput_onStop(self):
         self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
-        self.onStopped() #activate the output of the box]]>
+        self.onStopped() #activate the output of the boxx]]>
 </content>
                             </script>
                             <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" />
